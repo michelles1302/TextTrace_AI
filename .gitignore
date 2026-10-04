@@ -1,0 +1,40 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node.js & Dependencies
+node_modules/
+frontend/node_modules/
+
+# Frontend Production Builds
+frontend/dist/
+frontend/dist-ssr/
+
+# Local SQLite Database
+*.db
+backend/*.db
+texttrace_history.db
+
+# Generated PDF Reports & Artifacts
+reports/
+*.pdf
+
+# Environment variables & local secrets
+.env
+.env.local
+
+# OS & IDE Junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
